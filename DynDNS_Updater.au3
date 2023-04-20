@@ -1,6 +1,6 @@
 ; ============================================================================
 ; Program....: Dynamic DNS Auto-Updater
-; Author.....: Michael Rouse (michael@michaelrouse.net)
+; Author.....: Michael Rouse
 ; Date.......: 06/19/2013
 ; Description: Detects an IP change and then automatically updates DynDNS
 ; ============================================================================
@@ -9,7 +9,7 @@
 #include <Date.au3>
 
 ; VARIABLES - Need to be filled out for DynDNS to work
-Global $hotsname = "" ; Example: mydomain.com
+Global $hostname = "" ; Example: mydomain.com
 Global $username = ""
 Global $password = ""
 
